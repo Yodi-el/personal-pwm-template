@@ -20,9 +20,10 @@ A minimal, CLI‑based password manager that stores credentials in an **encrypte
 1. **Clone the repository** (if you haven’t already):
 
     git clone https://github.com/YOUR_USER/private-pwm.git
+
     cd private-pwm
 
-2. **Create a virtual environment and install dependencies**
+3. **Create a virtual environment and install dependencies**
 # On Linux/macOS (or GitHub Codespaces)
 
     python3 -m venv venv
