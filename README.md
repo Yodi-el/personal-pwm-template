@@ -35,9 +35,11 @@ A minimal, CLI‑based password manager that stores credentials in an **encrypte
 
 # Install required packages
 
-         pip install argon2-cffi cryptography tabulate
-    
-    Else use
+Using:
+
+        pip install argon2-cffi cryptography tabulate
+        
+or else use:
 
         pip install -r requirements.txt
         
