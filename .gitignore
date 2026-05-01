@@ -1,0 +1,5 @@
+vault.enc
+venv/
+__pycache__/
+*.pyc
+*.pyo
