@@ -19,7 +19,7 @@ A minimal, CLI‑based password manager that stores credentials in an **encrypte
 
 1. **Clone the repository** (if you haven’t already):
 
-   git clone https://github.com/YOUR_USER/private-pwm.git
+   git clone https://github.com/YOUR_USER/personal-pwm.git
    cd private-pwm
 
 3. **Create a virtual environment and install dependencies**
