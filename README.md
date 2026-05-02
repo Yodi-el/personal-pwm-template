@@ -63,13 +63,13 @@ Shows username and password.
 
 ## List all entries
 
-python pwm.py list
+        python pwm.py list
 
 Prints a table of all stored services and their usernames (passwords hidden).
 
 ## Search by service name
 
-python pwm.py search <keyword>
+        python pwm.py search <keyword>
 
 Lists all services containing <keyword>.
 
