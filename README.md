@@ -19,8 +19,8 @@ A minimal, CLI‑based password manager that stores credentials in an **encrypte
 
 1. **Clone the repository** (if you haven’t already):
 
-        git clone https://github.com/YOUR_USER/private-pwm.git
-        cd private-pwm
+   git clone https://github.com/YOUR_USER/private-pwm.git
+   cd private-pwm
 
 3. **Create a virtual environment and install dependencies**
 ## On Linux/macOS (or GitHub Codespaces)
@@ -37,11 +37,11 @@ A minimal, CLI‑based password manager that stores credentials in an **encrypte
 
 Using:
 
-        pip install argon2-cffi cryptography tabulate
+    pip install argon2-cffi cryptography tabulate
 
 or else use:
 
-        pip install -r requirements.txt
+    pip install -r requirements.txt
         
 # Usage
 All commands (except gen) will ask for your master password.
@@ -53,6 +53,7 @@ Type it carefully—it is not displayed on screen.
 
 You’ll be prompted for the service password (hidden).
 Example:
+
     python pwm.py add github myuser@email.com
 
 ## Get an entry
@@ -63,13 +64,13 @@ Shows username and password.
 
 ## List all entries
 
-        python pwm.py list
+    python pwm.py list
 
 Prints a table of all stored services and their usernames (passwords hidden).
 
 ## Search by service name
 
-        python pwm.py search <keyword>
+    python pwm.py search <keyword>
 
 Lists all services containing <keyword>.
 
